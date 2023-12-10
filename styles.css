@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 15000;
+  }
+
+  .GaarXLogo {
+    width: 155px;
+    height: 155px;
+    
+  }
+
+  .RedLine {
+    animation: rotateAnimation 9s ease-in-out infinite;
+    transform-origin: center;
+  }
+
+  @keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(150deg);
+    }
+    45% {
+        transform: rotate(190deg);
+    }
+    50% {
+        transform: rotate(150deg);
+    }
+    65% {
+      transform: rotate(200deg);
+    }
+    75% {
+        transform: rotate(150deg);
+      }
+      85% {
+        transform: rotate(230deg);
+      }
+    100% {
+        transform: rotate(0deg);
+      }
+  }
