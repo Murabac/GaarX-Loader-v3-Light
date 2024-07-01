@@ -52,3 +52,22 @@ body{
         transform: rotate(0deg);
       }
   }
+
+  @media (prefers-color-scheme: dark) {
+    .loader-wrapper {
+        background-color: black;
+    }
+
+    .GaarXLogo {
+        stroke: white;
+    }
+
+    .UpperCircle {
+      fill: white;
+    }
+
+    .InnerCircle{
+      fill: white;
+      stroke: white;
+    }
+}
