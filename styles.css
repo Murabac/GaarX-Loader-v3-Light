@@ -20,6 +20,11 @@ body{
     
   }
 
+  .InnerCircle{
+    fill: black;
+    stroke: black;
+  }
+
   .RedLine {
     transform-origin: 415.244px 406.246px;
     animation: rotateLine 9s ease-in-out infinite;
