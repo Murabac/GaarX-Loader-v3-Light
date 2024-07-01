@@ -23,35 +23,6 @@
             <path class="UpperCircle" d="M805 402.5C805 624.795 624.795 805 402.5 805C180.205 805 0 624.795 0 402.5C0 180.205 180.205 0 402.5 0C624.795 0 805 180.205 805 402.5ZM66.6058 402.5C66.6058 588.009 216.991 738.394 402.5 738.394C588.009 738.394 738.394 588.009 738.394 402.5C738.394 216.991 588.009 66.6058 402.5 66.6058C216.991 66.6058 66.6058 216.991 66.6058 402.5Z" fill="black"/>
             </svg>
     </div>
-
-    <script>
-        function applyDarkModeStyles() {
-            const loaderWrapper = document.querySelector('.loader-wrapper');
-            const gaarXLogo = document.querySelector('.GaarXLogo');
-            const upperCircle = document.querySelector('.UpperCircle');
-            const innerCircle = document.querySelector('.InnerCircle');
-            
-            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                // Dark mode
-                loaderWrapper.style.backgroundColor = 'black';
-                gaarXLogo.style.stroke = 'white';
-                upperCircle.style.fill = 'white';
-                innerCircle.style.fill = 'white';
-                innerCircle.style.stroke = 'white';
-            } else {
-                // Light mode
-                loaderWrapper.style.backgroundColor = 'white';
-                gaarXLogo.style.stroke = 'black';
-                upperCircle.style.fill = 'black';
-                innerCircle.style.fill = 'black';
-                innerCircle.style.stroke = 'black';
-            }
-        }
-
-        applyDarkModeStyles();
-        
-        // Listen for changes in the color scheme preference
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyDarkModeStyles);
-    </script>
+    
 </body>
 </html>
