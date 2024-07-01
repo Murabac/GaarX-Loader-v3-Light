@@ -20,6 +20,23 @@ body{
     
   }
 
+  .loader-wrapper {
+    background-color: black;
+  }
+
+  .GaarXLogo {
+      stroke: black;
+  }
+
+  .UpperCircle {
+    fill: black;
+  }
+
+  .InnerCircle{
+    fill: black;
+    stroke: black;
+  }
+
   .RedLine {
     transform-origin: 415.244px 406.246px;
     animation: rotateLine 9s ease-in-out infinite;
